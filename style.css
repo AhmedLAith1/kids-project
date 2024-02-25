@@ -1,0 +1,232 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&display=swap");
+:root {
+  --backgrund: #ffe1cc;
+  --brown: #332623;
+  --ornge: #ff7b4d;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+  font-family: "Raleway";
+  font-size: 20px;
+  font-weight: 600;
+}
+body {
+  background: var(--backgrund);
+  width: 100vw;
+  height: 100vh;
+}
+header {
+  padding: 58px;
+  display: flex;
+  align-items: center;
+  z-index: 99999;
+  position: absolute;
+}
+.logo {
+  padding-right: 300px;
+  padding: 10px;
+  border: var(--brown) 1px solid;
+  border-radius: 12px;
+  margin-right: 300px;
+  cursor: pointer;
+}
+ul {
+  display: flex;
+  list-style: none;
+  /* margin-right: 80px; */
+}
+li {
+  padding-right: 102px;
+}
+li a {
+  cursor: pointer;
+  color: var(--brown);
+}
+
+.search {
+  background: var(--ornge);
+  width: 340px;
+  height: 42px;
+  display: flex;
+  border-radius: 12px;
+}
+.search img {
+  padding: 10px;
+  cursor: pointer;
+}
+.search input {
+  background: transparent;
+  outline: none;
+  caret-color: var(--brown);
+  width: 300px;
+}
+
+.content {
+  display: inline-block;
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+}
+.background {
+  display: inline-block;
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+.background .b1 {
+  display: flex;
+  position: absolute;
+  width: 241px;
+  z-index: 1;
+}
+.background .b2 {
+  display: flex;
+  position: absolute;
+  top: 120px;
+  width: 60px;
+  z-index: 2;
+}
+
+.background .b3 {
+  display: flex;
+  position: absolute;
+  bottom: 0px;
+  width: 300px;
+  z-index: 2;
+}
+.background .b4 {
+  display: flex;
+  position: absolute;
+  bottom: 0px;
+  width: 170px;
+  z-index: 3;
+}
+.background .b5 {
+  display: flex;
+  position: absolute;
+  bottom: 0px;
+  width: 170px;
+  z-index: 4;
+}
+
+.background .b6 {
+  display: flex;
+  position: absolute;
+  bottom: 0px;
+  left: 170px;
+  width: 140px;
+  z-index: 6;
+}
+.background .b7 {
+  display: flex;
+  position: absolute;
+  bottom: 0px;
+  left: 240px;
+  width: 500px;
+  z-index: 5;
+}
+.background .b8 {
+  display: flex;
+  position: absolute;
+  bottom: 0px;
+  left: 570px;
+  width: 240px;
+  z-index: 5;
+}
+.background .b9 {
+  display: flex;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  width: 210px;
+  z-index: 6;
+}
+.background .b10 {
+  display: flex;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  width: 190px;
+  z-index: 6;
+}
+.background .b11 {
+  display: flex;
+  position: absolute;
+  bottom: 290px;
+  right: 0px;
+  width: 80px;
+  z-index: 6;
+}
+.background .b12 {
+  display: flex;
+  position: absolute;
+  bottom: 346px;
+  right: 0px;
+  height: 400px;
+  z-index: 5;
+}
+.background .kidsImg {
+  display: flex;
+  position: absolute;
+  top: 150px;
+  left: 92px;
+  height: 530px;
+  z-index: 5;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  top: 250px;
+  right: 202px;
+  width: 530px;
+  z-index: 5;
+
+  /* height: 600px; */
+}
+.text p:first-child {
+  font-family: "Gochi Hand";
+  font-size: 260px;
+  position: relative;
+  z-index: 1;
+  top: 10%;
+  line-height: 70%;
+}
+
+.text p:nth-child(2) {
+  font-family: "Baloo 2";
+  font-size: 40px;
+  font-weight: 600;
+  position: relative;
+  z-index: 1;
+}
+.text p:nth-child(3) {
+  margin-top: 10px;
+  width: 333px;
+  color: #332623;
+  text-align: center;
+  font-family: "Baloo 2";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 130%;
+}
+
+.btn {
+  background: var(--brown);
+  padding: 10px;
+  border-radius: 12px;
+  color: var(--backgrund);
+  margin: 24px;
+  cursor: pointer;
+}
